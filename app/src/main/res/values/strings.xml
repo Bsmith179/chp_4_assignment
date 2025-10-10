@@ -7,8 +7,7 @@
     <string name="btConvert">CALCULATE BMI</string>
     <string name="tvTitle">BMI Calculator</string>
 
-    <string name="error_enter_weight">Please enter your weight</string>
-    <string name="error_enter_height">Please enter your height</string>
+    <string name="error_enter_input">Please enter your height and weight</string>
     <string name="error_invalid_number">Invalid number format</string>
     <string name="error_pounds_limit">Pounds must be less than 500</string>
     <string name="error_inches_limit">Height in inches must be less than 120</string>

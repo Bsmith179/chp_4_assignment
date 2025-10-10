@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597">
+        app:layout_constraintVertical_bias="0.522">
 
         <RadioButton
             android:id="@+id/rbStandard"
@@ -24,7 +24,9 @@
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="@string/rbStandard"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="330dp" />
 
         <RadioButton
             android:id="@+id/rbMetric"
@@ -33,7 +35,9 @@
             android:text="@string/rbMetric"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="378dp" />
     </RadioGroup>
 
     <TextView
@@ -52,25 +56,6 @@
         app:layout_constraintVertical_bias="0.152" />
 
     <EditText
-        android:id="@+id/tvWeight"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:foregroundGravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:hint="@string/hintWeight"
-        android:inputType="number"
-        android:textColorHint="#78909c"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
-
-    <EditText
         android:id="@+id/tvHeight"
         android:layout_width="300dp"
         android:layout_height="50dp"
@@ -87,7 +72,26 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.28" />
+
+    <EditText
+        android:id="@+id/tvWeight"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="@string/hintWeight"
+        android:inputType="number"
+        android:textColorHint="#78909c"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
 
     <Button
         android:id="@+id/btConvert"
@@ -102,14 +106,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
+        app:layout_constraintVertical_bias="0.698" />
 
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:textColor="#FF0000"
+        android:gravity="center_horizontal"
+        android:textColor="#181818"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

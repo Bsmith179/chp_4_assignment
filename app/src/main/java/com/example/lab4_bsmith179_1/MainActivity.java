@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity {
 
                 // Return if input is empty
                 if (weight.getText().toString().isEmpty()) {
-                    Toast.makeText(MainActivity.this, getString(R.string.error_enter_weight), Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.error_enter_input), Toast.LENGTH_LONG).show();
                     return;
                 }
 
                 if (height.getText().toString().isEmpty()) {
-                    Toast.makeText(MainActivity.this, getString(R.string.error_enter_height), Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.error_enter_input), Toast.LENGTH_LONG).show();
                     return;
                 }
 
