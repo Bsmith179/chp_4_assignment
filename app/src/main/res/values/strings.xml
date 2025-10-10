@@ -10,7 +10,6 @@
     <string name="error_enter_weight">Please enter your weight</string>
     <string name="error_enter_height">Please enter your height</string>
     <string name="error_invalid_number">Invalid number format</string>
-    <string name="error_positive_values">Weight and height must be positive</string>
     <string name="error_pounds_limit">Pounds must be less than 500</string>
     <string name="error_inches_limit">Height in inches must be less than 120</string>
     <string name="error_kilos_limit">Kilograms must be less than 225</string>
