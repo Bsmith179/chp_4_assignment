@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         // instantiate needed objects from class
         final EditText weight = (EditText) findViewById(R.id.tvWeight);
-        final RadioButton lbToKilo = (RadioButton) findViewById(R.id.rbLbToKilo);
-        final RadioButton kiloToLb = (RadioButton) findViewById(R.id.rbKiloToLb);
+        final RadioButton lbToKilo = (RadioButton) findViewById(R.id.rbStandard);
+        final RadioButton kiloToLb = (RadioButton) findViewById(R.id.rbMetric);
         final TextView result = (TextView) findViewById(R.id.tvResult);
         Button convert = (Button) findViewById(R.id.btConvert);
 

@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">Lab4_Bsmith179-1</string>
-    <string name="hint">Weight of Patient</string>
-    <string name="rbLbToKilo">Converts Pounds to Kilograms</string>
-    <string name="rbKiloToLb">Convert kilograms to Pounds</string>
-    <string name="btConvert">CONVERT WEIGHT</string>
-    <string name="tvTitle">Convert Patient Weight</string>
+    <string name="hintHeight">Enter Your Height</string>
+    <string name="hintWeight">Enter Your Weight</string>
+    <string name="rbStandard">Standard: lbs/inches</string>
+    <string name="rbMetric">Metric: kg/cm</string>
+    <string name="btConvert">CALCULATE BMI</string>
+    <string name="tvTitle">BMI Calculator</string>
+
+    <string name="error_enter_weight">Please enter your weight</string>
+    <string name="error_enter_height">Please enter your height</string>
+    <string name="error_invalid_number">Invalid number format</string>
+    <string name="error_positive_values">Weight and height must be positive</string>
+    <string name="error_pounds_limit">Pounds must be less than 500</string>
+    <string name="error_inches_limit">Height in inches must be less than 120</string>
+    <string name="error_kilos_limit">Kilograms must be less than 225</string>
+    <string name="error_cm_limit">Height in cm must be less than 300</string>
+    <string name="error_select_unit">Please select a unit</string>
 </resources>
