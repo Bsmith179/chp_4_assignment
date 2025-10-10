@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab4_Bsmith179-1</string>
+    <string name="hint">Weight of Patient</string>
+    <string name="rbLbToKilo">Converts Pounds to Kilograms</string>
+    <string name="rbKiloToLb">Convert kilograms to Pounds</string>
+    <string name="btConvert">CONVERT WEIGHT</string>
+    <string name="tvTitle">Convert Patient Weight</string>
+</resources>

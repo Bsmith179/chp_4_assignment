@@ -1,0 +1,49 @@
+# === Android Studio Specific ===
+*.iml
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# === Gradle ===
+.gradle/
+**/build/
+!gradle-wrapper.jar
+
+# === Local Configuration ===
+local.properties
+
+# === Native Build ===
+.externalNativeBuild/
+.cxx/
+obj/
+
+# === Keystores (DO NOT COMMIT!) ===
+*.jks
+*.keystore
+
+# === Generated / Output Files ===
+/build/
+captures/
+*.apk
+*.ap_
+*.aab
+*.class
+*.log
+*.orig
+*.kotlin_module
+output.json
+
+# === Firebase / Crashlytics ===
+crashlytics-build.properties
+fabric.properties
+
+# === Navigation Editor ===
+.navigation/
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
