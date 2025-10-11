@@ -1,3 +1,10 @@
+/* Brigitte Smith
+Lab 4 - BMI Calculation App
+This app allows a user to input their height and weight in standard or metric units then calculates
+their BMI based of that input. It is displayed along with the relevant health category.
+10/10/2025
+ */
+
 package com.example.lab4_bsmith179_1;
 
 import android.os.Bundle;
